@@ -7,12 +7,12 @@ column_mapping:
   prediction: ${run.outputs.category}
 
 # define cloud resource
-runtime: <runtime-name>
+runtime: llmops_runtime
 
 connections:
   classify_with_llm:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: llmopsconn1
+    deployment_name: llmopsgpt35
   summarize_text_content:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: llmopsconn1
+    deployment_name: llmopsgpt35
