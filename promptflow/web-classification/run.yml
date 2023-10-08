@@ -8,7 +8,7 @@ runtime: a812compute
 connections:
   classify_with_llm:
     connection: a812run
-    deployment_name: llmopsgpt35
+    deployment_name: a812dep1
   summarize_text_content:
     connection: a812run
-    deployment_name: llmopsgpt35
+    deployment_name: a812dep1
