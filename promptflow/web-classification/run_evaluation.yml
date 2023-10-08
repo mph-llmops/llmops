@@ -7,12 +7,12 @@ column_mapping:
   prediction: ${run.outputs.category}
 
 # define cloud resource
-runtime: llmops_runtime
+runtime: a812compute
 
 connections:
   classify_with_llm:
-    connection: llmopsconn1
+    connection: a812run
     deployment_name: llmopsgpt35
   summarize_text_content:
-    connection: llmopsconn1
+    connection: a812run
     deployment_name: llmopsgpt35
