@@ -12,8 +12,8 @@ env:
   GROUP: ${{secrets.GROUP}}
   WORKSPACE: ${{secrets.WORKSPACE}}
   SUBSCRIPTION: ${{secrets.SUBSCRIPTION}}
-  RUN_NAME: Web Classification-v2-variant_0-202310100324
-  EVAL_RUN_NAME: Web Classification-v2-variant_0-202310100324-Classification Accuracy Evaluation-202310100351
+  RUN_NAME: web-classification
+  EVAL_RUN_NAME: classification-accuracy-eval
   ENDPOINT_NAME: web-classification-8d3e95
   DEPLOYMENT_NAME: blue
 
