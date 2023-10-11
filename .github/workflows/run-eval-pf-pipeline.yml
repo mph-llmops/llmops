@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 env: 
-  GROUP: ${{variables.GROUP}}
+  GROUP: ${{secrets.GROUP}}
   WORKSPACE: ${{secrets.WORKSPACE}}
   SUBSCRIPTION: ${{secrets.SUBSCRIPTION}}
   RUN_NAME: Web Classification-v2-variant_0-202310100324
